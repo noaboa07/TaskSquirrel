@@ -26,9 +26,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+My video Walkthrough:
 
-<a href="https://github.com/FAU-Fall2024-iOS-Mobile-App/lab-1-noaboa07-9/blob/adf3632d9c207824359820697d7a5e1f078a6f0d/lab-task-squirrel/Lab%201.gif">
+<a href="lab-task-squirrel/Lab 1.gif">
+
+GIF created with VEED.io
 
 ## Notes
 
