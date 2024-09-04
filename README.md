@@ -1,6 +1,7 @@
 # Lab 1 - *Task Squirrels*
 
 Submitted by: **Noah Russell**
+Z Number: **Z23667779**
 
 **TaskSquirrel** is an app that desperate parents use to get their children to do chores and help them out. This app has a list of tasks for the user to complete. Users will be required to attach photos to show that they have completed the task. After attaching the photo to a task, the app shows where that photo was taken in a map [TODO] 
 
