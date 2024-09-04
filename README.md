@@ -1,28 +1,28 @@
-# Project 1 - *Name of App Here*
+# Lab 1 - *Task Squirrels*
 
-Submitted by: **Your Name Here**
+Submitted by: **Noah Russell**
 
-**Name of your app** is an app that ... [TODO] 
+**TaskSquirrel** is an app that desperate parents use to get their children to do chores and help them out. This app has a list of tasks for the user to complete. Users will be required to attach photos to show that they have completed the task. After attaching the photo to a task, the app shows where that photo was taken in a map [TODO] 
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] App displays list of hard-coded tasks
-- [ ] When a task is tapped it navigates the user to a task detail view
-- [ ] When user adds photo to complete the tasks, it marks the task as complete
-- [ ] When adding photo of task, the location is added
-- [ ] User returns to home page (list of tasks) and the status of your task is updated to complete
+- [✅] App displays list of tasks
+- [✅] When a task is tapped it navigates the user to a task detail view
+- [✅] When user adds photo to complete the tasks, it marks the task as complete
+- [✅] When adding photo of task, the location is added
+- [✅] User can view the photo pinned from the task
  
 The following **optional** features are implemented:
 
-- [ ] User can launch camera to snap a picture    
+- [❌] User can launch camera to snap a picture    
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] N/A
 
 ## Video Walkthrough
 
@@ -32,11 +32,11 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+    Was a fun introduction to using Xcode and understanding the expectations of mobile app development.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Noah Russell]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
