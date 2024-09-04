@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+[Guide]](https://github.com/FAU-Fall2024-iOS-Mobile-App/lab-1-noaboa07-9/blob/adf3632d9c207824359820697d7a5e1f078a6f0d/lab-task-squirrel/Lab%201.gif) .
 
 ## Notes
 
