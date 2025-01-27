@@ -1,54 +1,73 @@
-# Lab 1 - *Task Squirrels*
+# TaskSquirrel - A Task Management App
 
-Submitted by: **Noah Russell**
-Z Number: **Z23667779**
+TaskSquirrel is a task management app designed to help parents motivate their children to complete household chores effectively. The app provides a list of tasks for users, tracks task completion with photo evidence, and uses location tracking to display where the task was completed. This project demonstrates fundamental skills in iOS development, including navigation, data handling, and UI implementation.
 
-**TaskSquirrel** is an app that desperate parents use to get their children to do chores and help them out. This app has a list of tasks for the user to complete. Users will be required to attach photos to show that they have completed the task. After attaching the photo to a task, the app shows where that photo was taken in a map [TODO] 
+## Key Information
 
-Time spent: **3** hours spent in total
+Developer: Noah Russell
+Development Time: Approximately 3 hours
+Technologies Used: Swift, UIKit, CoreLocation, Xcode
 
-## Required Features
+## Features
 
-The following **required** functionality is completed:
+The following required features have been implemented to create a functional task management app:
 
-- [✅] App displays list of tasks
-- [✅] When a task is tapped it navigates the user to a task detail view
-- [✅] When user adds photo to complete the tasks, it marks the task as complete
-- [✅] When adding photo of task, the location is added
-- [✅] User can view the photo pinned from the task
- 
-The following **optional** features are implemented:
+✅ Task List View: Displays a list of tasks with clear, actionable details.
+✅ Task Detail Navigation: Allows users to tap a task and navigate to a detailed view with specific information about the task.
+✅ Photo Attachments: Users can attach photos to tasks, marking them as complete.
+✅ Location Tracking: Captures and associates the location where a photo is taken with the task.
+✅ Map Integration: Displays task completion locations on an interactive map.
 
-- [❌] User can launch camera to snap a picture    
+## Optional Features
 
-The following **additional** features are implemented:
+The following optional feature has not been implemented yet:
 
-- [ ] N/A
+❌ Camera Integration: Users cannot directly snap photos using the device’s camera from within the app (to be implemented in future iterations).
+
+## Future Enhancements
+
+The project has room for additional improvements:
+
+🔲 Implementing direct camera functionality for seamless task photo attachments.
+🔲 Adding notifications and reminders for pending tasks.
+🔲 Integrating a progress tracker for gamified task completion.
+🔲 Building a backend system to sync tasks across multiple devices.
 
 ## Video Walkthrough
+Below is a video walkthrough showcasing the core functionality of TaskSquirrel:
 
-My video Walkthrough:
+<img style="max-width:300px;" src="lab-task-squirrel/Lab 1.gif" alt="TaskSquirrel Demo">
+GIF created using VEED.io.
 
-<img style="max-width:300px;" src="lab-task-squirrel/Lab 1.gif">
 
-GIF created with VEED.io
+## Development Process
 
-## Notes
+This project was built as part of an academic assignment to explore iOS development using Xcode. The following skills and tools were utilized:
 
-    Was a fun introduction to using Xcode and understanding the expectations of mobile app development.
+UIKit: For building the user interface and managing app navigation.
+CoreLocation: To capture and display the location of task completion.
+MapKit: For embedding an interactive map view in the task detail screen.
+MVC Architecture: To ensure clean separation of concerns and code modularity.
+Git Version Control: Used for tracking changes and managing project iterations.
+
+## Challenges Faced
+Integrating location tracking with photo attachments was initially tricky but resolved by using CoreLocation in tandem with the UIImagePickerController.
+Managing app navigation and passing data between the task list view and detail view required careful handling of delegation and data flow.
+
+## Key Takeaways
+Strengthened understanding of Xcode’s interface and debugging tools.
+Gained experience working with iOS frameworks like CoreLocation and MapKit.
+Improved ability to structure iOS applications using best practices.
+
+## Technologies and Tools
+
+Language: Swift
+Frameworks: UIKit, CoreLocation, MapKit
+Development Environment: Xcode 14.0+
+Version Control: Git
 
 ## License
 
-    Copyright [2024] [Noah Russell]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+TaskSquirrel is licensed under the Apache License 2.0.
+You may obtain a copy of the license at:
+http://www.apache.org/licenses/LICENSE-2.0
